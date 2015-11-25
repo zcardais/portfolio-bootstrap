@@ -1,0 +1,106 @@
+/*PAGE STYLES*/
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	padding-top: 70px;
+}
+
+
+/*HEADER*/
+#logo {
+	border-radius: 99px;
+}
+
+.navbar {
+	border-bottom: 2px solid #bcbbbb;
+	border-radius: 0px;
+	padding-bottom: 20px;
+}
+
+.navbar-right {
+	margin-right: 0px;
+}
+
+/*HEADING STYLES*/
+h1, h4 {
+	 color: rgb(102,104,88);
+	 text-transform: uppercase;
+}
+
+h1 {
+	letter-spacing: 3px;
+	font-weight: 300;
+}
+
+/*FEATURED WORK*/
+.feat {
+	color: #bcbbbb;
+	letter-spacing: 3px;
+	margin-top: 40px;
+	padding-left: 8px;	
+}
+
+.caption {
+	text-align: center;
+}
+
+.caption h3 {
+	text-transform: uppercase;
+	color: #666858;
+	font-weight: normal;
+	margin: -15px 0 3px 0;
+}
+
+/*LINKS*/
+a {
+	font-weight: 100;
+}
+
+a.thumbnail {
+	margin-top: 20px;
+}
+
+a:link {
+  color: #bcbbbb;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #F8981C;
+  text-decoration: none;
+}
+
+a:hover a:focus {
+  color: #bcbbbb ;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #F8981C;
+  text-decoration: none;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+	#logo {
+		display: none;
+	}
+	
+	.navbar-right {
+		float: left;
+		text-align: left;
+	}
+	
+	.thumbnail {
+		border: none;
+	}
+}
